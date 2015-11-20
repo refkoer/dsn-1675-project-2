@@ -34,3 +34,25 @@ p{
 .bg-2{
 	background-color: #9c9c9c;
 }
+
+
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  h1{
+  	text-align: left;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
