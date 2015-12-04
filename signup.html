@@ -8,7 +8,7 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/module.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Slabo+13px' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -63,7 +63,7 @@
 			</a>
 
 			<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-				<p>EZ PZ Fill up form.</p>
+				<p>Enjoy the benefits of being a member!</p>
 			</div>
 		</div>
 
@@ -72,33 +72,38 @@
   		</div>
   	</div>
 
-	<div class="grid bg-2">
+	<form class="grid bg-2" action="https://formspree.io/refkoer@yahoo.com" method="post">
 
-  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<p class="btn--light icon-link island-1-2" href="#">Name</p>
+  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<label class="island-1-2" for="name">Name</label>
+			<input id="name" required type="text" name="name">
 		</div>
 
-		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<p class="btn--light icon-link island-1-2" href="#">E-mail</p>
+		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<label class="island-1-2" for="email">E-mail</label>
+			<input id="email" type="email" name="_replyto" required>
 		</div>
 
-  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<p class="btn--light icon-link island-1-2" href="#">Username</p>
+  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<label class="island-1-2" for="username">Username</label>
+			<input id="username" type="type" name="username" required>
 		</div>
 
-  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<p class="btn--light icon-link island-1-2" href="#">Password</p>
+  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<label  class="island-1-2" for="password">Password</label>
+			<input id="password" type="password" name="password" required>		
 		</div>	
 
-  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<p class="btn--light icon-link island-1-2" href="#">Credit Card Information</p>
+  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<label class="island-1-2" for="creditcard">Credit Card Information</label>
+			<input id="creditcard" type="type" name="creditcard" required>
 		</div>	
 
-  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-2 text-center">
-			<a class=" btn icon-link" href="#">Sign-Up</a>
+  		<div class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 text-center">
+			<button type="submit">Submit</button>
 		</div>
 
-  	</div>
+  	</form type="hidden" name="_next" value="https://refkoer.github.io/formsdemo/thanks.html">
   </main>
 
 
