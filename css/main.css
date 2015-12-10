@@ -17,6 +17,14 @@ label{
   cursor: pointer;
 }
 
+ul{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
 button{
   border: 3px solid gray;
   background-image: linear-gradient(white, gray);
