@@ -23,6 +23,12 @@ ul{
 
 a{
   text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+li:hover{
+  background-color: #982428;
 }
 
 button{
@@ -40,22 +46,52 @@ button{
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
-    min-height: 400px;
+    min-height: 100px;
+}
+
+.footer{ 
+    background-image: url(../image/footer.jpg);
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    min-height: 100px;
 }
 
 p{
 	margin: 0;
 	padding: 0;
   font-family: 'Slabo 13px', serif;
+  color: black;
 
+}
+
+h1, h2{
+  color: white;
+}
+
+nav{
+  background-color: black;
+}
+
+.lineheight-2{
+  line-height: 2.5rem;
+  color: white;
+}
+
+.logo{
+  width: 70px;
+}
+
+.logo-2{
+  width: 30px;
 }
 
 .bg-1{
-	background-color: #b4b4b4;
+	background-color: #671113;
 }
 
 .bg-2{
-	background-color: #9c9c9c;
+	background-color: #982428;
 }
 
 @media only screen and (min-width: 38em) {
