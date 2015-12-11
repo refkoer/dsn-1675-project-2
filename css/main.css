@@ -10,6 +10,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
+  background-color: black;
 }
 
 label{
@@ -94,6 +95,10 @@ nav{
 
 .bg-2{
 	background-color: #982428;
+}
+
+.bg-3{
+  background-color: white;
 }
 
 @media only screen and (min-width: 38em) {
