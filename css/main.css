@@ -7,7 +7,7 @@ html {
 }
 
 body{
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
   background-color: black;
@@ -88,9 +88,7 @@ nav{
   width: 70px;
 }
 
-.logo-2{
-  width: 30px;
-}
+
 
 .bg-1{
 	background-color: #671113;
@@ -109,7 +107,9 @@ nav{
   border-radius: 0;
 }
 
-./
+.select-2{
+  width: 200px
+}
 
 @media only screen and (min-width: 38em) {
 
