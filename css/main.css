@@ -59,6 +59,9 @@ button{
     min-height: 100px;
 }
 
+fieldset{
+  border: 0px;
+}
 
 p{
 	margin: 0;
@@ -101,9 +104,12 @@ nav{
   background-color: white;
 }
 
-select{
+.select{
   width: 100px;
+  border-radius: 0;
 }
+
+./
 
 @media only screen and (min-width: 38em) {
 
